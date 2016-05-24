@@ -125,13 +125,13 @@
     <Reference Include="Xamarin.iOS" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\src\ADAL.PCL.iOS\ADAL.PCL.iOS.csproj">
+    <ProjectReference Include="..\..\..\src\ADAL.PCL.iOS\ADAL.iOS.csproj">
       <Project>{2f80e14c-b186-4aee-92bc-0de3b6fdb107}</Project>
-      <Name>ADAL.PCL.iOS</Name>
+      <Name>ADAL.iOS</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\src\ADAL.PCL\ADAL.PCL.csproj">
+    <ProjectReference Include="..\..\..\src\ADAL.PCL\ADAL.csproj">
       <Project>{94569420-69b5-4031-a975-f5791e3f2f17}</Project>
-      <Name>ADAL.PCL</Name>
+      <Name>ADAL</Name>
     </ProjectReference>
     <ProjectReference Include="..\TestApp.PCL\TestApp.PCL.csproj">
       <Project>{c09ee601-3f07-4e8b-b12f-473b2bfbef95}</Project>

@@ -16,7 +16,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>bin\iPhone\Debug</OutputPath>
+    <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -30,7 +30,7 @@
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
-    <OutputPath>bin\iPhone\Release</OutputPath>
+    <OutputPath>bin\Release\</OutputPath>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <ConsolePause>false</ConsolePause>
@@ -71,9 +71,9 @@
     <Compile Include="WebUIFactory.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ADAL.PCL\ADAL.PCL.csproj">
+    <ProjectReference Include="..\ADAL.PCL\ADAL.csproj">
       <Project>{94569420-69b5-4031-a975-f5791e3f2f17}</Project>
-      <Name>ADAL.PCL</Name>
+      <Name>ADAL</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

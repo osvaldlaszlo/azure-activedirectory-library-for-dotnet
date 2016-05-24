@@ -120,13 +120,13 @@
     <Compile Include="UnitTests.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\src\ADAL.PCL.Desktop\ADAL.PCL.Desktop.csproj">
+    <ProjectReference Include="..\..\src\ADAL.PCL.Desktop\ADAL.Net45.csproj">
       <Project>{fa2c7f08-3ccb-47c2-b359-627cc96c04a3}</Project>
-      <Name>ADAL.PCL.Desktop</Name>
+      <Name>ADAL.Net45</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\src\ADAL.PCL\ADAL.PCL.csproj">
+    <ProjectReference Include="..\..\src\ADAL.PCL\ADAL.csproj">
       <Project>{94569420-69b5-4031-a975-f5791e3f2f17}</Project>
-      <Name>ADAL.PCL</Name>
+      <Name>ADAL</Name>
     </ProjectReference>
     <ProjectReference Include="..\Test.ADAL.NET.Friend\Test.ADAL.NET.Friend.csproj">
       <Project>{f22f94db-3e3b-49c9-9534-9b499e199aab}</Project>

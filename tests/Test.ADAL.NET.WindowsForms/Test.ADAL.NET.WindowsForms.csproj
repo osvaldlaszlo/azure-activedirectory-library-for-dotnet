@@ -60,8 +60,9 @@
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.IdentityModel" />
-    <Reference Include="System.IdentityModel.Tokens.Jwt">
-      <HintPath>..\..\packages\System.IdentityModel.Tokens.Jwt.4.0.0-alpha\lib\net45\System.IdentityModel.Tokens.Jwt.dll</HintPath>
+    <Reference Include="System.IdentityModel.Tokens.Jwt, Version=4.0.20622.1351, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\System.IdentityModel.Tokens.Jwt.4.0.2.206221351\lib\net45\System.IdentityModel.Tokens.Jwt.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Runtime.Serialization" />
@@ -172,13 +173,13 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\src\ADAL.PCL.Desktop\ADAL.PCL.Desktop.csproj">
+    <ProjectReference Include="..\..\src\ADAL.PCL.Desktop\ADAL.Net45.csproj">
       <Project>{fa2c7f08-3ccb-47c2-b359-627cc96c04a3}</Project>
-      <Name>ADAL.PCL.Desktop</Name>
+      <Name>ADAL.Net45</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\src\ADAL.PCL\ADAL.PCL.csproj">
+    <ProjectReference Include="..\..\src\ADAL.PCL\ADAL.csproj">
       <Project>{94569420-69b5-4031-a975-f5791e3f2f17}</Project>
-      <Name>ADAL.PCL</Name>
+      <Name>ADAL</Name>
     </ProjectReference>
     <ProjectReference Include="..\Test.ADAL.NET.Friend\Test.ADAL.NET.Friend.csproj">
       <Project>{f22f94db-3e3b-49c9-9534-9b499e199aab}</Project>

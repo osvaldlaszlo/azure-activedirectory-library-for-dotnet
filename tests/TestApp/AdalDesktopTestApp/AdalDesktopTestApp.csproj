@@ -55,13 +55,13 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\src\ADAL.PCL.Desktop\ADAL.PCL.Desktop.csproj">
+    <ProjectReference Include="..\..\..\src\ADAL.PCL.Desktop\ADAL.Net45.csproj">
       <Project>{fa2c7f08-3ccb-47c2-b359-627cc96c04a3}</Project>
-      <Name>ADAL.PCL.Desktop</Name>
+      <Name>ADAL.Net45</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\src\ADAL.PCL\ADAL.PCL.csproj">
+    <ProjectReference Include="..\..\..\src\ADAL.PCL\ADAL.csproj">
       <Project>{94569420-69b5-4031-a975-f5791e3f2f17}</Project>
-      <Name>ADAL.PCL</Name>
+      <Name>ADAL</Name>
     </ProjectReference>
     <ProjectReference Include="..\TestApp.PCL\TestApp.PCL.csproj">
       <Project>{c09ee601-3f07-4e8b-b12f-473b2bfbef95}</Project>

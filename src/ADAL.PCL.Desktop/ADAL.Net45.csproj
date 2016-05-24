@@ -122,9 +122,9 @@
     <Compile Include="Native\X509Native.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ADAL.PCL\ADAL.PCL.csproj">
+    <ProjectReference Include="..\ADAL.PCL\ADAL.csproj">
       <Project>{94569420-69b5-4031-a975-f5791e3f2f17}</Project>
-      <Name>ADAL.PCL</Name>
+      <Name>ADAL</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
